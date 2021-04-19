@@ -30,7 +30,7 @@ addresses to produce with a key or a series of keys.
 it with the necessary signatures and other components, to make it valid and complete.
 
 Together they provide a common ground to create and use a multi signature 
-infrastructure in an eterogeneous environment, and this is what I have put 
+infrastructure in an heterogeneous environment, and this is what I have put 
 to test.
 
 ## The use case
@@ -42,10 +42,10 @@ transaction.
 ## The role of Descriptors
 
 If Alice and Bob cannot agree on the software to use, to monitor the same financial 
-situation, the two softwares must control and produce exactly the same series
+situation, the two software must control and produce exactly the same series
 of multisignature addresses. 
 
-To make two different softwares produce the same addresses in a deterministic way 
+To make two different software produce the same addresses in a deterministic way 
 we must ensure that they:
 * produce the same pair of public keys
 * combine them in the same order
@@ -69,7 +69,7 @@ Wallet and Bob using a "Last generation" wallet, Bitcoin Development Kit
 Each of these two software wallets should be able to:
 
 * Create a new address which is seen as belonging to the multi signature 
-wallet in both softwares
+wallet in both software
 * Express the consent of each party by partially signing the transaction in a way 
 the other wallet can understand and complete it with its own signature.
 
